@@ -1,0 +1,34 @@
+server:
+  port: 8082
+spring:
+
+  rabbitmq:
+    host: 192.168.126.136
+    virtual-host: /kang
+    username: kang
+    password: kang
+    port: 5672
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/guli_ums?characterEncoding=utf-8
+    username: root
+    password: kang123
+  redis:
+    host: 192.168.126.136
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath:mapper/ums/**/*.xml
+
+
+
+
+
+

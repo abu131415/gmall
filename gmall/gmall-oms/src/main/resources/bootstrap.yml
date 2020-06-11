@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: oms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+#        file-extension: yml    如果nacos中dataId后缀名为yml，在这里要指定文件后缀为yml
+#        namespace:
+#        group:

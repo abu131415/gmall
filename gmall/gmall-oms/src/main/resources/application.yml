@@ -1,0 +1,19 @@
+server:
+  port: 8084
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli_oms?characterEncoding=utf-8
+    username: root
+    password: kang123
+  redis:
+    host: 192.168.126.136
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath:mapper/oms/**/*.xml

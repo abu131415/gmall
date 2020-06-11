@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  elasticsearch:
+    rest:
+      uris: http://192.168.126.136:9200
+  jackson:
+    default-property-inclusion: non_null
+
+  rabbitmq:
+    host: 192.168.126.136
+    virtual-host: /kang
+    username: kang
+    password: kang

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.atguigu</groupId>
+    <artifactId>gmall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>谷粒商城</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>gmall-core</module>
+        <module>gmall-admin</module>
+        <module>gmall-pms</module>
+        <module>gmall-ums</module>
+        <module>gmall-oms</module>
+        <module>gmall-sms</module>
+        <module>gmall-generator</module>
+        <module>gmall-wms</module>
+        <module>gmall-gateway</module>
+        <module>gmall-sms-interface</module>
+        <module>gmall-search</module>
+        <module>gmall-pms-interface</module>
+        <module>gmall-wms-interface</module>
+        <module>index-service</module>
+        <module>gmall-item</module>
+        <module>gmall-message</module>
+        <module>gmall-ums-interface</module>
+        <module>gmall-auth</module>
+        <module>gmall-cart</module>
+        <module>gmall-order</module>
+        <module>gmall-oms-interface</module>
+        <module>gmall-cart-interface</module>
+        <module>gmall-cart-interface</module>
+        <module>gmall-oms-interface</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

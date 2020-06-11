@@ -1,0 +1,21 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    host: 192.168.126.136
+  rabbitmq:
+    host: 192.168.126.136
+    virtual-host: /kang
+    username: kang
+    password: kang
+
+gmall:
+  jwt:
+    pubKeyPath: C:\\tmp\\project02\\rsa.pub # \u516C\u94A5\u5730\u5740
+    cookieName: GMALL_TOKEN
+    userKeyName: usekey   #\u6E38\u5BA2id
+

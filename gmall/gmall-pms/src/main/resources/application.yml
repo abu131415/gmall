@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.126.136
+    virtual-host: /kang
+    username: kang
+    password: kang
+item:
+  rabbitmq:
+    exchange:
+      GMALL-PMS-EXCHANGE
